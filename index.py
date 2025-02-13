@@ -1,7 +1,6 @@
 from os import system
 from time import sleep
 
-
 def clear(secs):
   sleep(secs)
   system('cls')
@@ -18,9 +17,10 @@ def loadingScreen(cycle,msg):
 
 loadingScreen(0,'Loading')
 
-tMom = {'Character' : 'Tennis Mom | Attacker' , 'Health Points' : '10' , 'Normal Attack' : 'Deals 2 dmg' , 'Skill' : 'Deal 2 dmg. At the end of the round,deal 1 to all enemies' , 'Ultimate' : 'Normal Attacks will deal dmg towards all enemies.'}
+tennisA = {'Character' : 'Tennis Mom | Attacker' , 'Health Points' : '10' , 'Normal Attack' : 'Deals 2 dmg' , 'Skill' : 'Deal 2 dmg. At the end of the round,deal 1 to all enemies' , 'Ultimate' : 'Normal Attacks will deal dmg towards all enemies.'}
 
-for key, value in tMom.items():
+
+for key, value in tennisA.items():
   print(key+':',value)
 
 print()
